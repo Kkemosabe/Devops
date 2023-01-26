@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n "Mail: "
+echo -n "Email: "
 read email
 if [[ "$email" =~ [a-z.]+@[a-z]{2,}\.(com|net|org) ]]
 then
